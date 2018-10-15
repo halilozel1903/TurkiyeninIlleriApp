@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+// Button'a round özelliği ekleme işlemleri
+
 @IBDesignable class RoundButton : UIButton{
     
     override init(frame: CGRect) {
