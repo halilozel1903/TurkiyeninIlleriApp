@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func contact(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ContactStoryboardID")
+        self.show(vc!, sender: nil)
+    }
+    
 }
 
