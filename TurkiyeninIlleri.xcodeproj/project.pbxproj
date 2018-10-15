@@ -13,6 +13,7 @@
 		9FFD1ADE2174EA52007D09F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD1ADD2174EA52007D09F2 /* Assets.xcassets */; };
 		9FFD1AE12174EA52007D09F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD1ADF2174EA52007D09F2 /* LaunchScreen.storyboard */; };
 		9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */; };
+		9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9FFD1AE02174EA52007D09F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFD1AE22174EA52007D09F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9FFD1ADF2174EA52007D09F2 /* LaunchScreen.storyboard */,
 				9FFD1AE22174EA52007D09F2 /* Info.plist */,
 				9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */,
+				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
 			);
 			path = TurkiyeninIlleri;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */,
+				9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */,
 				9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */,
 				9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */,
 			);
