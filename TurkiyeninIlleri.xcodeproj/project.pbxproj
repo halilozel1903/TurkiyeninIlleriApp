@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF4392182376F00948D4E /* TableViewController.swift */; };
+		9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF43B2182379100948D4E /* TableViewCell.swift */; };
 		9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */; };
 		9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD82174EA50007D09F2 /* ViewController.swift */; };
 		9FFD1ADC2174EA50007D09F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD1ADA2174EA50007D09F2 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FABF4392182376F00948D4E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9FABF43B2182379100948D4E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9FFD1AD32174EA50007D09F2 /* TurkiyeninIlleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkiyeninIlleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFD1AD82174EA50007D09F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				9FFD1AE22174EA52007D09F2 /* Info.plist */,
 				9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */,
 				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
+				9FABF4392182376F00948D4E /* TableViewController.swift */,
+				9FABF43B2182379100948D4E /* TableViewCell.swift */,
 			);
 			path = TurkiyeninIlleri;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */,
 				9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */,
 				9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */,
+				9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */,
+				9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */,
 				9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

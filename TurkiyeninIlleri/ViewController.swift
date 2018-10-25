@@ -21,5 +21,11 @@ class ViewController: UIViewController {
         self.show(vc!, sender: nil)
     }
     
+    @IBAction func cities(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CityStoryboardID")
+        self.show(vc!, sender: nil)
+    }
+    
 }
 
