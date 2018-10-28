@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2BBEFF2185F5B7006CC5D7 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */; };
+		9F2BBF012185F60B006CC5D7 /* CityImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */; };
+		9F2BBF032185F627006CC5D7 /* CityNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF022185F627006CC5D7 /* CityNameTableViewCell.swift */; };
+		9F2BBF052185F63C006CC5D7 /* CityDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF042185F63C006CC5D7 /* CityDetailTableViewCell.swift */; };
 		9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF4392182376F00948D4E /* TableViewController.swift */; };
 		9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF43B2182379100948D4E /* TableViewCell.swift */; };
 		9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityImageTableViewCell.swift; sourceTree = "<group>"; };
+		9F2BBF022185F627006CC5D7 /* CityNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameTableViewCell.swift; sourceTree = "<group>"; };
+		9F2BBF042185F63C006CC5D7 /* CityDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailTableViewCell.swift; sourceTree = "<group>"; };
 		9FABF4392182376F00948D4E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9FABF43B2182379100948D4E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9FFD1AD32174EA50007D09F2 /* TurkiyeninIlleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkiyeninIlleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +51,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2BBF072185F71A006CC5D7 /* City TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */,
+				9F2BBF022185F627006CC5D7 /* CityNameTableViewCell.swift */,
+				9F2BBF042185F63C006CC5D7 /* CityDetailTableViewCell.swift */,
+			);
+			path = "City TableViewCell";
+			sourceTree = "<group>";
+		};
+		9F2BBF082185F75C006CC5D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD1AD82174EA50007D09F2 /* ViewController.swift */,
+				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
+				9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F2BBF092185F770006CC5D7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				9FABF4392182376F00948D4E /* TableViewController.swift */,
+				9FABF43B2182379100948D4E /* TableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		9F2BBF0A2185F781006CC5D7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		9FFD1ACA2174EA50007D09F2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */,
-				9FFD1AD82174EA50007D09F2 /* ViewController.swift */,
-				9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */,
-				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
-				9FABF4392182376F00948D4E /* TableViewController.swift */,
-				9FABF43B2182379100948D4E /* TableViewCell.swift */,
+				9F2BBF082185F75C006CC5D7 /* ViewController */,
+				9F2BBF0A2185F781006CC5D7 /* Button */,
+				9F2BBF092185F770006CC5D7 /* TableView */,
+				9F2BBF072185F71A006CC5D7 /* City TableViewCell */,
 				9FFD1ADA2174EA50007D09F2 /* Main.storyboard */,
 				9FFD1ADD2174EA52007D09F2 /* Assets.xcassets */,
 				9FFD1ADF2174EA52007D09F2 /* LaunchScreen.storyboard */,
@@ -150,9 +194,13 @@
 				9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */,
 				9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */,
 				9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */,
+				9F2BBF032185F627006CC5D7 /* CityNameTableViewCell.swift in Sources */,
 				9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */,
 				9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */,
 				9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */,
+				9F2BBF052185F63C006CC5D7 /* CityDetailTableViewCell.swift in Sources */,
+				9F2BBF012185F60B006CC5D7 /* CityImageTableViewCell.swift in Sources */,
+				9F2BBEFF2185F5B7006CC5D7 /* CityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

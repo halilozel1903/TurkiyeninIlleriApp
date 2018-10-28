@@ -121,18 +121,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="139.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYo-aa-IaN">
-                                            <rect key="frame" x="251" y="11" width="143" height="55"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="55" id="HpK-oc-6Qz"/>
-                                                <constraint firstAttribute="width" constant="143" id="XcO-cY-fD6"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxg-BX-32Z">
-                                            <rect key="frame" x="251" y="74" width="143" height="55"/>
+                                            <rect key="frame" x="175" y="64" width="143" height="55"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -140,20 +130,30 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="adana" translatesAutoresizingMaskIntoConstraints="NO" id="3wX-gC-8wt">
                                             <rect key="frame" x="20" y="19" width="100" height="100"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="Vwi-yS-Cmv"/>
+                                                <constraint firstAttribute="width" constant="100" id="wKE-nV-uje"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYo-aa-IaN">
+                                            <rect key="frame" x="175" y="1" width="143" height="55"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="55" id="uBU-JX-uYe"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="zxg-BX-32Z" firstAttribute="top" secondItem="QYo-aa-IaN" secondAttribute="bottom" constant="8" symbolic="YES" id="HUB-tS-PHY"/>
-                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="top" secondItem="ZAa-Lw-S9v" secondAttribute="topMargin" id="J0l-iG-ZlK"/>
-                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="centerY" secondItem="ZAa-Lw-S9v" secondAttribute="centerY" id="cQe-Na-XED"/>
-                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="leading" secondItem="zxg-BX-32Z" secondAttribute="leading" id="czs-aA-sGr"/>
-                                        <constraint firstItem="zxg-BX-32Z" firstAttribute="bottom" secondItem="ZAa-Lw-S9v" secondAttribute="bottomMargin" id="iSm-WI-Mkb"/>
-                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="trailing" secondItem="ZAa-Lw-S9v" secondAttribute="trailingMargin" id="p2Y-oo-Lkf"/>
-                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="leading" secondItem="ZAa-Lw-S9v" secondAttribute="leadingMargin" id="s8h-zK-wkb"/>
-                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="trailing" secondItem="zxg-BX-32Z" secondAttribute="trailing" id="sqW-mu-SMH"/>
-                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="top" secondItem="ZAa-Lw-S9v" secondAttribute="topMargin" constant="8" id="ysE-rG-UOb"/>
+                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="trailing" secondItem="zxg-BX-32Z" secondAttribute="trailing" id="3hD-8k-far"/>
+                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="bottom" secondItem="zxg-BX-32Z" secondAttribute="bottom" id="BtP-Es-1lw"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3wX-gC-8wt" secondAttribute="bottom" constant="10" id="Lu2-6G-eXJ"/>
+                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="leading" secondItem="zxg-BX-32Z" secondAttribute="leading" id="P2x-Wy-yyQ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="QYo-aa-IaN" secondAttribute="trailing" constant="76" id="UXj-Rr-vqf"/>
+                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="centerY" secondItem="ZAa-Lw-S9v" secondAttribute="centerY" id="W3O-so-RSE"/>
+                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="leading" secondItem="3wX-gC-8wt" secondAttribute="trailing" constant="55" id="WiZ-mD-8Rc"/>
+                                        <constraint firstItem="QYo-aa-IaN" firstAttribute="top" secondItem="ZAa-Lw-S9v" secondAttribute="topMargin" constant="-10" id="YHu-Xo-YJk"/>
+                                        <constraint firstItem="zxg-BX-32Z" firstAttribute="top" secondItem="QYo-aa-IaN" secondAttribute="bottom" constant="8" symbolic="YES" id="rR4-Hm-hj5"/>
+                                        <constraint firstItem="3wX-gC-8wt" firstAttribute="leading" secondItem="ZAa-Lw-S9v" secondAttribute="leadingMargin" id="tFQ-J3-HNX"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -172,11 +172,113 @@
                     <connections>
                         <outlet property="searchBar" destination="R18-E5-GiS" id="dit-Px-sTl"/>
                         <outlet property="tableViewCity" destination="9HT-MW-Tcg" id="FEj-VP-j41"/>
+                        <segue destination="jDc-d3-SOP" kind="show" id="x41-oE-fjT"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcB-XA-ECQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1152.1739130434783" y="648.88392857142856"/>
+        </scene>
+        <!--City View Controller-->
+        <scene sceneID="pvj-Do-wPr">
+            <objects>
+                <viewController id="jDc-d3-SOP" customClass="CityViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Wi-NH-5u1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vho-eb-6AL">
+                                <rect key="frame" x="0.0" y="768" width="414" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.1843137255" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vis-mc-Y5E">
+                                <rect key="frame" x="0.0" y="97" width="414" height="663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityImageCell" rowHeight="167" id="XhO-hR-hud" customClass="CityImageTableViewCell" customModule="TurkiyeninIlleri" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="167"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XhO-hR-hud" id="dri-lF-1S3">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="166.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adana_meshur2" translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-dS-178">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="167"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="ZM0-dS-178" secondAttribute="height" multiplier="414:167" id="qKH-bh-JEa"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="ZM0-dS-178" secondAttribute="bottom" constant="-0.5" id="Zqk-vX-TsP"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZM0-dS-178" secondAttribute="trailing" id="rX1-CF-3qF"/>
+                                                <constraint firstItem="ZM0-dS-178" firstAttribute="top" secondItem="dri-lF-1S3" secondAttribute="top" id="tfr-Rc-1DT"/>
+                                                <constraint firstItem="ZM0-dS-178" firstAttribute="leading" secondItem="dri-lF-1S3" secondAttribute="leading" id="zfh-d1-sAv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityNameCell" rowHeight="75" id="ZKF-Qi-Oa4" customClass="CityNameTableViewCell" customModule="TurkiyeninIlleri" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="195" width="414" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZKF-Qi-Oa4" id="K17-ZV-ufq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="74.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-N2-4Mm">
+                                                    <rect key="frame" x="20" y="11" width="374" height="53"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dQw-N2-4Mm" firstAttribute="bottom" secondItem="K17-ZV-ufq" secondAttribute="bottomMargin" id="2Ud-eF-Q98"/>
+                                                <constraint firstItem="dQw-N2-4Mm" firstAttribute="trailing" secondItem="K17-ZV-ufq" secondAttribute="trailingMargin" id="RNB-1e-QOI"/>
+                                                <constraint firstItem="dQw-N2-4Mm" firstAttribute="leading" secondItem="K17-ZV-ufq" secondAttribute="leadingMargin" id="b4V-3t-jcc"/>
+                                                <constraint firstItem="dQw-N2-4Mm" firstAttribute="top" secondItem="K17-ZV-ufq" secondAttribute="topMargin" id="fQa-ty-L3b"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityDetailCell" rowHeight="318" id="nPS-Vn-5cb" customClass="CityDetailTableViewCell" customModule="TurkiyeninIlleri" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="270" width="414" height="318"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nPS-Vn-5cb" id="Xax-vB-bCJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="317.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6e4-Uj-d0D">
+                                                    <rect key="frame" x="11" y="0.0" width="394" height="307"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <mutableString key="text">Bulunduğu Bölge : Akdeniz
+Yüz ölçümü : 13.844 km2
+Meşhur Yemekleri : Kebap, Analı Kızlı Çorbası, Yüksük Çorbası, Karakuş Tatlısı, Hamiş, Mahluta Çorbası, Karsambaç, Şırdan, Aşlama, Bici Bici
+Telefon Kodu :   322
+Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu Konağı, Kurtkulağı Kervansarayı, Mestanzade Hamamı, Misis Köprüsü, Kemeraltı Camii, Tepebağ Evleri
+İlçeleri : Aladağ, Ceyhan, Çukurova, Feke, İmamoğlu, Karaisalı, Karataş, Kozan‎, Pozantı‎, Saimbeyli, Sarıçam, Seyhan, Tufanbeyli‎, Yumurtalık‎, Yüreğir</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6e4-Uj-d0D" firstAttribute="leading" secondItem="Xax-vB-bCJ" secondAttribute="leading" constant="11" id="890-6g-ac2"/>
+                                                <constraint firstItem="6e4-Uj-d0D" firstAttribute="top" secondItem="Xax-vB-bCJ" secondAttribute="top" id="XKY-WZ-PtL"/>
+                                                <constraint firstAttribute="bottom" secondItem="6e4-Uj-d0D" secondAttribute="bottom" constant="10.5" id="gCw-bJ-SPV"/>
+                                                <constraint firstAttribute="trailing" secondItem="6e4-Uj-d0D" secondAttribute="trailing" constant="9" id="yR7-tN-TOy"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="y0K-UY-89q"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mAl-sr-enZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156.52173913043478" y="656.25"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="4TO-j6-7pZ">
@@ -319,6 +421,7 @@
     </scenes>
     <resources>
         <image name="adana" width="225" height="225"/>
+        <image name="adana_meshur2" width="752" height="440"/>
         <image name="mail" width="102.40000152587891" height="102.40000152587891"/>
         <image name="maps" width="400.69564819335938" height="400.69564819335938"/>
         <image name="phone" width="102.40000152587891" height="102.40000152587891"/>
