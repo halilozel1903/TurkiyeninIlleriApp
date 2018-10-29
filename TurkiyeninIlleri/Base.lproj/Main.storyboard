@@ -182,7 +182,7 @@
         <!--City View Controller-->
         <scene sceneID="pvj-Do-wPr">
             <objects>
-                <viewController id="jDc-d3-SOP" customClass="CityViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CitiesStoryboardID" id="jDc-d3-SOP" customClass="CityViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Wi-NH-5u1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,8 +204,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="166.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adana_meshur2" translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-dS-178">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="167"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="adana_meshur2" translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-dS-178">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="ZM0-dS-178" secondAttribute="height" multiplier="414:167" id="qKH-bh-JEa"/>
                                                     </constraints>
@@ -218,6 +218,9 @@
                                                 <constraint firstItem="ZM0-dS-178" firstAttribute="leading" secondItem="dri-lF-1S3" secondAttribute="leading" id="zfh-d1-sAv"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageMeshur" destination="ZM0-dS-178" id="p7i-hn-9BL"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityNameCell" rowHeight="75" id="ZKF-Qi-Oa4" customClass="CityNameTableViewCell" customModule="TurkiyeninIlleri" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="195" width="414" height="75"/>
@@ -248,15 +251,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="317.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6e4-Uj-d0D">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6e4-Uj-d0D">
                                                     <rect key="frame" x="11" y="0.0" width="394" height="307"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <mutableString key="text">Bulunduğu Bölge : Akdeniz
+                                                    <string key="text">Bulunduğu Bölge : Akdeniz
 Yüz ölçümü : 13.844 km2
 Meşhur Yemekleri : Kebap, Analı Kızlı Çorbası, Yüksük Çorbası, Karakuş Tatlısı, Hamiş, Mahluta Çorbası, Karsambaç, Şırdan, Aşlama, Bici Bici
 Telefon Kodu :   322
 Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu Konağı, Kurtkulağı Kervansarayı, Mestanzade Hamamı, Misis Köprüsü, Kemeraltı Camii, Tepebağ Evleri
-İlçeleri : Aladağ, Ceyhan, Çukurova, Feke, İmamoğlu, Karaisalı, Karataş, Kozan‎, Pozantı‎, Saimbeyli, Sarıçam, Seyhan, Tufanbeyli‎, Yumurtalık‎, Yüreğir</mutableString>
+İlçeleri : Aladağ, Ceyhan, Çukurova, Feke, İmamoğlu, Karaisalı, Karataş, Kozan‎, Pozantı‎, Saimbeyli, Sarıçam, Seyhan, Tufanbeyli‎, Yumurtalık‎, Yüreğir</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -275,10 +278,13 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="y0K-UY-89q"/>
                     </view>
+                    <connections>
+                        <outlet property="sehirtableView" destination="vis-mc-Y5E" id="wh0-7h-qfE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAl-sr-enZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-156.52173913043478" y="656.25"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="648.88392857142856"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="4TO-j6-7pZ">
@@ -289,7 +295,7 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIW-EB-hg6">
-                                <rect key="frame" x="36" y="136" width="343" height="93"/>
+                                <rect key="frame" x="36" y="179" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maps" translatesAutoresizingMaskIntoConstraints="NO" id="XQI-fd-1dF">
@@ -309,7 +315,7 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNK-xT-3N5">
-                                <rect key="frame" x="36" y="286" width="343" height="93"/>
+                                <rect key="frame" x="36" y="329" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="fTL-OO-zcS">
@@ -329,7 +335,7 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 <color key="backgroundColor" red="1" green="0.18431372549019609" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzG-To-3hF">
-                                <rect key="frame" x="36" y="473" width="343" height="93"/>
+                                <rect key="frame" x="36" y="516" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="J2A-V0-qwR">
@@ -349,7 +355,7 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5v-3r-cqK">
-                                <rect key="frame" x="36" y="663" width="343" height="93"/>
+                                <rect key="frame" x="36" y="706" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="web" translatesAutoresizingMaskIntoConstraints="NO" id="vaK-Qg-g5g">
@@ -367,7 +373,7 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 <color key="backgroundColor" red="1" green="0.18431372549019609" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="İletişim Bilgileri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIV-n8-3pN">
-                                <rect key="frame" x="63" y="44" width="289" height="43"/>
+                                <rect key="frame" x="63" y="100" width="289" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

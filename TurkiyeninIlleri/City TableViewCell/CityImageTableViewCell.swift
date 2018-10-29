@@ -10,6 +10,10 @@ import UIKit
 
 class CityImageTableViewCell: UITableViewCell {
 
+    
+    
+    @IBOutlet weak var imageMeshur: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

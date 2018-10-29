@@ -28,6 +28,34 @@ class TableViewController: UITableViewController,UISearchBarDelegate,UISearchCon
                        "57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75",
                         "76","77","78","79","80","81"]
     
+     let cityImages = [UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon"),
+                       UIImage(named: "adana"),UIImage(named: "adiyaman"),UIImage(named: "afyon")]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,9 +81,31 @@ class TableViewController: UITableViewController,UISearchBarDelegate,UISearchCon
 
         cell?.cityName?.text = cityNames[indexPath.row]
         cell?.cityNumber?.text = cityNumbers[indexPath.row]
+        cell?.cityIcon?.image = cityImages[indexPath.row]
 
         return cell!
     }
+    
+    // hangi row'a tıklandığını öğrendiğimiz function
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let rowNumber = indexPath.row
+        // print(rowNumber)
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CitiesStoryboardID") as! CityViewController
+        
+ 
+        vc.selectedRow = rowNumber
+        
+
+        
+        
+        self.show(vc, sender: nil)
+        
+        
+        
+    }
+    
 }
 
 
