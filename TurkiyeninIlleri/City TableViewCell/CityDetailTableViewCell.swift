@@ -10,6 +10,7 @@ import UIKit
 
 class CityDetailTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var menuDetail: UITextView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -10,6 +10,10 @@ import UIKit
 
 class CityNameTableViewCell: UITableViewCell {
 
+   
+    @IBOutlet weak var nameMeshur: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
