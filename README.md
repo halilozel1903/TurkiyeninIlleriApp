@@ -1,6 +1,6 @@
 # Türkiye'nin İlleri Uygulaması
 
-Türkiye'nin İlleri Swift 4.2 ile geliştirilen bir iOS uygulamasıdır.
+Türkiye'nin İlleri, Swift 4.2 ile geliştirilen bir iOS uygulamasıdır.
 
 Uygulamada 4 ana bölüm olacaktır. Bunlar aşağıdaki gibidir : 
 
@@ -11,4 +11,4 @@ meşhur yerler, bulunduğu bölge ve yüz ölçüm bilgileri verilmektedir.
 
 - Test :  Bu bölümde İller bölümünde öğrendiklerinizi deneyebileceğiniz bir bölümdür.
 
-- İletişim : Geliştiriciye ait bilgilere ulaşabileceğiniz bölümdür.
+- İletişim : Geliştiriciye ait bilgilere ulaşabileceğiniz bölümdür. Kullanıcının lokasyon bilgisini, mail, telefon bilgisini ve kullanıcının diğer uygulamalarına erişebilmek için bir siteyi görüntüleyeceksiniz.
