@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B65505F391ADA25C5DB2B9E /* Pods_TurkiyeninIlleri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F04B35D538BBC3CA51B3EC /* Pods_TurkiyeninIlleri.framework */; };
 		9F2BBEFF2185F5B7006CC5D7 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */; };
 		9F2BBF012185F60B006CC5D7 /* CityImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */; };
 		9F2BBF032185F627006CC5D7 /* CityNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF022185F627006CC5D7 /* CityNameTableViewCell.swift */; };
 		9F2BBF052185F63C006CC5D7 /* CityDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF042185F63C006CC5D7 /* CityDetailTableViewCell.swift */; };
+		9F7C5BA121C83D8D00DCB42F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C5BA021C83D8D00DCB42F /* WeatherViewController.swift */; };
+		9F7C5BA321C83DD100DCB42F /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C5BA221C83DD100DCB42F /* ChangeCityViewController.swift */; };
 		9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF4392182376F00948D4E /* TableViewController.swift */; };
 		9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF43B2182379100948D4E /* TableViewCell.swift */; };
 		9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */; };
@@ -23,10 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA149140DD81CAA78660F61 /* Pods-TurkiyeninIlleri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkiyeninIlleri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri.debug.xcconfig"; sourceTree = "<group>"; };
+		76F04B35D538BBC3CA51B3EC /* Pods_TurkiyeninIlleri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkiyeninIlleri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityImageTableViewCell.swift; sourceTree = "<group>"; };
 		9F2BBF022185F627006CC5D7 /* CityNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameTableViewCell.swift; sourceTree = "<group>"; };
 		9F2BBF042185F63C006CC5D7 /* CityDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9F7C5BA021C83D8D00DCB42F /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherViewController.swift; path = TurkiyeninIlleri/Controller/WeatherViewController.swift; sourceTree = SOURCE_ROOT; };
+		9F7C5BA221C83DD100DCB42F /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
 		9FABF4392182376F00948D4E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9FABF43B2182379100948D4E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9FFD1AD32174EA50007D09F2 /* TurkiyeninIlleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkiyeninIlleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +45,7 @@
 		9FFD1AE22174EA52007D09F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFD1AE82174ECAD007D09F2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CC9304686C10E1CEB91F60BA /* Pods-TurkiyeninIlleri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkiyeninIlleri.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +53,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B65505F391ADA25C5DB2B9E /* Pods_TurkiyeninIlleri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C59A85A3262E7F10D753C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F04B35D538BBC3CA51B3EC /* Pods_TurkiyeninIlleri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F2BBF072185F71A006CC5D7 /* City TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +78,17 @@
 			path = "City TableViewCell";
 			sourceTree = "<group>";
 		};
-		9F2BBF082185F75C006CC5D7 /* ViewController */ = {
+		9F2BBF082185F75C006CC5D7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9F7C5BA021C83D8D00DCB42F /* WeatherViewController.swift */,
+				9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */,
 				9FFD1AD82174EA50007D09F2 /* ViewController.swift */,
 				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
 				9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */,
+				9F7C5BA221C83DD100DCB42F /* ChangeCityViewController.swift */,
 			);
-			path = ViewController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9F2BBF092185F770006CC5D7 /* TableView */ = {
@@ -88,11 +108,21 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
+		9F7C5B9F21C83B3000DCB42F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD1ADA2174EA50007D09F2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9FFD1ACA2174EA50007D09F2 = {
 			isa = PBXGroup;
 			children = (
 				9FFD1AD52174EA50007D09F2 /* TurkiyeninIlleri */,
 				9FFD1AD42174EA50007D09F2 /* Products */,
+				E677394E02BF3980344F4F3A /* Pods */,
+				1C59A85A3262E7F10D753C50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,17 +137,25 @@
 		9FFD1AD52174EA50007D09F2 /* TurkiyeninIlleri */ = {
 			isa = PBXGroup;
 			children = (
-				9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */,
-				9F2BBF082185F75C006CC5D7 /* ViewController */,
+				9F2BBF082185F75C006CC5D7 /* Controller */,
 				9F2BBF0A2185F781006CC5D7 /* Button */,
 				9F2BBF092185F770006CC5D7 /* TableView */,
 				9F2BBF072185F71A006CC5D7 /* City TableViewCell */,
-				9FFD1ADA2174EA50007D09F2 /* Main.storyboard */,
+				9F7C5B9F21C83B3000DCB42F /* View */,
 				9FFD1ADD2174EA52007D09F2 /* Assets.xcassets */,
 				9FFD1ADF2174EA52007D09F2 /* LaunchScreen.storyboard */,
 				9FFD1AE22174EA52007D09F2 /* Info.plist */,
 			);
 			path = TurkiyeninIlleri;
+			sourceTree = "<group>";
+		};
+		E677394E02BF3980344F4F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA149140DD81CAA78660F61 /* Pods-TurkiyeninIlleri.debug.xcconfig */,
+				CC9304686C10E1CEB91F60BA /* Pods-TurkiyeninIlleri.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FFD1AE52174EA52007D09F2 /* Build configuration list for PBXNativeTarget "TurkiyeninIlleri" */;
 			buildPhases = (
+				347991D669D0C8B4D336D208 /* [CP] Check Pods Manifest.lock */,
 				9FFD1ACF2174EA50007D09F2 /* Sources */,
 				9FFD1AD02174EA50007D09F2 /* Frameworks */,
 				9FFD1AD12174EA50007D09F2 /* Resources */,
+				5229E2DA3E3105D8AE18AC3C /* [CP] Embed Pods Frameworks */,
+				259C3C9B09E1743A51F93D1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +227,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		259C3C9B09E1743A51F93D1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347991D669D0C8B4D336D208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkiyeninIlleri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5229E2DA3E3105D8AE18AC3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FFD1ACF2174EA50007D09F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +300,8 @@
 				9F2BBF052185F63C006CC5D7 /* CityDetailTableViewCell.swift in Sources */,
 				9F2BBF012185F60B006CC5D7 /* CityImageTableViewCell.swift in Sources */,
 				9F2BBEFF2185F5B7006CC5D7 /* CityViewController.swift in Sources */,
+				9F7C5BA121C83D8D00DCB42F /* WeatherViewController.swift in Sources */,
+				9F7C5BA321C83DD100DCB42F /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +445,7 @@
 		};
 		9FFD1AE62174EA52007D09F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA149140DD81CAA78660F61 /* Pods-TurkiyeninIlleri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -362,6 +464,7 @@
 		};
 		9FFD1AE72174EA52007D09F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9304686C10E1CEB91F60BA /* Pods-TurkiyeninIlleri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
