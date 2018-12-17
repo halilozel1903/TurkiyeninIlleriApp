@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Türkiye'nin İlleri-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
@@ -65,6 +65,9 @@
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="weather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBH-Q1-Suy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCP-bn-F5j" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
                                 <rect key="frame" x="143" y="113" width="128" height="42"/>
@@ -87,7 +90,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="RgZ-ZG-tFj"/>
+                    <navigationItem key="navigationItem" title="Türkiye'nin İlleri" id="yHE-id-WrX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,6 +264,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OuV-H5-mAj"/>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="pcE-I2-cMs" id="2Fm-aM-iiw"/>
+                        <outlet property="temperatureLabel" destination="GNQ-wQ-TqN" id="TtZ-P0-sFO"/>
+                        <outlet property="weatherIcon" destination="WQr-0M-UFI" id="BwR-AW-ESV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNb-Ce-vAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -286,6 +294,9 @@
                                 <state key="normal" image="left">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="tbS-Ja-Y6n" eventType="touchUpInside" id="ojH-U1-pjv"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter City Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9KM-Lj-r1p" userLabel="City Name Text Field">
                                 <rect key="frame" x="93" y="158" width="228" height="30"/>
@@ -302,6 +313,9 @@
                                     <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="getWeatherPressed:" destination="tbS-Ja-Y6n" eventType="touchUpInside" id="fk1-Pj-SuP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -321,6 +335,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nyS-LJ-Vss"/>
                     </view>
+                    <connections>
+                        <outlet property="changeCityTextField" destination="9KM-Lj-r1p" id="Nfg-lb-D5d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItD-n9-n4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

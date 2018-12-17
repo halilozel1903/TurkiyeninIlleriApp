@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    @IBAction func weather(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "WeatherStoryboardID")
+        self.show(vc!, sender: nil)
+    }
     @IBAction func contact(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "ContactStoryboardID")
         self.show(vc!, sender: nil)
