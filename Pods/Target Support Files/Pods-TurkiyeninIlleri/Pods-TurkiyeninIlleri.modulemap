@@ -1,0 +1,6 @@
+framework module Pods_TurkiyeninIlleri {
+  umbrella header "Pods-TurkiyeninIlleri-umbrella.h"
+
+  export *
+  module * { export * }
+}
