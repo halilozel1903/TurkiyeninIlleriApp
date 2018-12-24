@@ -9,6 +9,14 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+    
+    //Place your instance variables here
+    
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet var progressBar: UIView!
+    @IBOutlet weak var progressLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +24,29 @@ class QuizViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func answerPressed(_ sender: AnyObject) {
+        
     }
-    */
+    
+    
+    func updateUI() {
+        
+    }
+    
+    
+    func nextQuestion() {
+        
+    }
+    
+    
+    func checkAnswer() {
+        
+    }
+    
+    
+    func startOver() {
+        
+    }
+    
 
 }
