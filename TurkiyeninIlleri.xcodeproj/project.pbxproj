@@ -17,6 +17,7 @@
 		9F7C5BA621C8491800DCB42F /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C5BA521C8491800DCB42F /* WeatherDataModel.swift */; };
 		9FABF43A2182376F00948D4E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF4392182376F00948D4E /* TableViewController.swift */; };
 		9FABF43C2182379100948D4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABF43B2182379100948D4E /* TableViewCell.swift */; };
+		9FF0924E21D1934E00AB7F12 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0924D21D1934E00AB7F12 /* QuizViewController.swift */; };
 		9FFD1AD72174EA50007D09F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */; };
 		9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD1AD82174EA50007D09F2 /* ViewController.swift */; };
 		9FFD1ADC2174EA50007D09F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD1ADA2174EA50007D09F2 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		9F7C5BA521C8491800DCB42F /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		9FABF4392182376F00948D4E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9FABF43B2182379100948D4E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9FF0924D21D1934E00AB7F12 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		9FFD1AD32174EA50007D09F2 /* TurkiyeninIlleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkiyeninIlleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFD1AD62174EA50007D09F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFD1AD82174EA50007D09F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				9FFD1AEA2174F022007D09F2 /* ContactViewController.swift */,
 				9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */,
 				9F7C5BA221C83DD100DCB42F /* ChangeCityViewController.swift */,
+				9FF0924D21D1934E00AB7F12 /* QuizViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */,
+				9FF0924E21D1934E00AB7F12 /* QuizViewController.swift in Sources */,
 				9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */,
 				9FFD1AD92174EA50007D09F2 /* ViewController.swift in Sources */,
 				9F2BBF032185F627006CC5D7 /* CityNameTableViewCell.swift in Sources */,
