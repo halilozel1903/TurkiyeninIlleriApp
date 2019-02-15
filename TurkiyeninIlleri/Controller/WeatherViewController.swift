@@ -23,10 +23,12 @@ class WeatherViewController: UIViewController ,CLLocationManagerDelegate, Change
     let weatherDataModel = WeatherDataModel()
     
     //Pre-linked IBOutlets
+    
+    
+    @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var weatherIcon: UIImageView!
     @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var temperatureLabel: UILabel!
-    
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -114,7 +116,7 @@ class WeatherViewController: UIViewController ,CLLocationManagerDelegate, Change
     //Write the updateUIWithWeatherData method here:
     func updateUIWithWeatherData(){
         cityLabel.text = weatherDataModel.city
-        temperatureLabel.text = "\(weatherDataModel.temperature)"
+        temperatureLabel.text = "\(weatherDataModel.temperature)°"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)
     }
     
@@ -131,7 +133,7 @@ class WeatherViewController: UIViewController ,CLLocationManagerDelegate, Change
         let location = locations[locations.count - 1]
         if location.horizontalAccuracy > 0{ // lokasyonun yatay doğruluğu 0 dan büyükse
             locationManager.stopUpdatingLocation() // lokasyonu güncellemeyi durdur.
-            print("longitude = \(location.coordinate.longitude), latitude = \(location.coordinate.latitude),")
+            print("longitude = \(location.coordinate.longitude), latitude = \(location.coordinate.latitude)")
             
             let latitude = String(location.coordinate.latitude)
             let longitude = String(location.coordinate.longitude)

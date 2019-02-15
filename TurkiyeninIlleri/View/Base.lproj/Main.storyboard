@@ -198,7 +198,7 @@
         <!--Weather View Controller-->
         <scene sceneID="ur4-KW-01t">
             <objects>
-                <viewController id="Jcp-KJ-nA4" customClass="WeatherViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WeatherStoryboardID" id="Jcp-KJ-nA4" customClass="WeatherViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sef-x5-YO5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,9 +265,10 @@
                         <viewLayoutGuide key="safeArea" id="OuV-H5-mAj"/>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="pcE-I2-cMs" id="2Fm-aM-iiw"/>
-                        <outlet property="temperatureLabel" destination="GNQ-wQ-TqN" id="TtZ-P0-sFO"/>
-                        <outlet property="weatherIcon" destination="WQr-0M-UFI" id="BwR-AW-ESV"/>
+                        <outlet property="button" destination="Vnk-UP-a98" id="jG1-xC-Puj"/>
+                        <outlet property="cityLabel" destination="pcE-I2-cMs" id="8Sf-Ez-hb8"/>
+                        <outlet property="temperatureLabel" destination="GNQ-wQ-TqN" id="flX-DQ-Q9q"/>
+                        <outlet property="weatherIcon" destination="WQr-0M-UFI" id="Yna-H4-rAm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNb-Ce-vAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
