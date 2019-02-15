@@ -51,6 +51,9 @@
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="quiz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zC4-Mm-rv2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaR-1h-6CS" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
                                 <rect key="frame" x="143" y="203" width="128" height="42"/>
@@ -347,7 +350,7 @@
         <!--Quiz View Controller-->
         <scene sceneID="XQI-RP-gT5">
             <objects>
-                <viewController id="nlj-eC-JWB" customClass="QuizViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QuizStoryboardID" id="nlj-eC-JWB" customClass="QuizViewController" customModule="TurkiyeninIlleri" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jb0-Aq-o5u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

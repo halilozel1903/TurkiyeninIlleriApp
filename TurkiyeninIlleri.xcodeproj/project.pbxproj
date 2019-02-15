@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290B4AB022175397007B58AE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B4AAF22175397007B58AE /* Question.swift */; };
+		290B4AB2221753B4007B58AE /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B4AB1221753B4007B58AE /* QuestionBank.swift */; };
 		4B65505F391ADA25C5DB2B9E /* Pods_TurkiyeninIlleri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F04B35D538BBC3CA51B3EC /* Pods_TurkiyeninIlleri.framework */; };
 		9F2BBEFF2185F5B7006CC5D7 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */; };
 		9F2BBF012185F60B006CC5D7 /* CityImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BBF002185F60B006CC5D7 /* CityImageTableViewCell.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290B4AAF22175397007B58AE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		290B4AB1221753B4007B58AE /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		6AA149140DD81CAA78660F61 /* Pods-TurkiyeninIlleri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkiyeninIlleri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurkiyeninIlleri/Pods-TurkiyeninIlleri.debug.xcconfig"; sourceTree = "<group>"; };
 		76F04B35D538BBC3CA51B3EC /* Pods_TurkiyeninIlleri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkiyeninIlleri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2BBEFE2185F5B7006CC5D7 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				9F7C5BA521C8491800DCB42F /* WeatherDataModel.swift */,
+				290B4AAF22175397007B58AE /* Question.swift */,
+				290B4AB1221753B4007B58AE /* QuestionBank.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290B4AB022175397007B58AE /* Question.swift in Sources */,
+				290B4AB2221753B4007B58AE /* QuestionBank.swift in Sources */,
 				9FFD1AE92174ECAD007D09F2 /* RoundButton.swift in Sources */,
 				9FF0924E21D1934E00AB7F12 /* QuizViewController.swift in Sources */,
 				9FFD1AEB2174F022007D09F2 /* ContactViewController.swift in Sources */,

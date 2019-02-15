@@ -31,5 +31,11 @@ class ViewController: UIViewController {
         self.show(vc!, sender: nil)
     }
     
+    
+    @IBAction func quiz(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "QuizStoryboardID")
+        self.show(vc!, sender: nil)
+    }
+    
 }
 
