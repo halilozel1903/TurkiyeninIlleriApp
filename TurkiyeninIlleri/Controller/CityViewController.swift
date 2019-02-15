@@ -13,7 +13,14 @@ class CityViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     var selectedRow = 0
     
-    var menuImages = [UIImage(named: "adana_meshur"),UIImage(named: "adiyaman_meshur"),UIImage(named: "afyon_meshur")]
+    var menuImages = [UIImage(named: "adana_meshur"),
+                      UIImage(named: "adiyaman_meshur"),
+                      UIImage(named: "afyon_meshur"),
+                      UIImage(named: "afyon_meshur"),
+                      UIImage(named: "agri_meshur"),
+                      UIImage(named: "amasya_meshur"),
+                      UIImage(named: "ankara_meshur"),
+                      UIImage(named: "antalya_meshur"),]
     
     var menuNames = ["Adana","Adıyaman","Afyon"]
     
