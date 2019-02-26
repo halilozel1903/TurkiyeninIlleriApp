@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController {
     
 
+    @IBOutlet weak var banner_anasayfa: GADBannerView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
+        
+        banner_anasayfa.adUnitID = "ca-app-pub-4317187826403980/1675099394"
+        banner_anasayfa.rootViewController = self
+        banner_anasayfa.load(GADRequest())
+        
+        
 
     }
 

@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class CityViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
-
+    
+    
+    @IBOutlet weak var banner_new: GADBannerView!
+    
     
     var selectedRow = 0
     
@@ -43,6 +47,11 @@ class CityViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
         sehirtableView.estimatedRowHeight = 220
         sehirtableView.rowHeight = UITableView.automaticDimension
+        
+        
+        banner_new.adUnitID = "ca-app-pub-4317187826403980/1675099394"
+        banner_new.rootViewController = self
+        banner_new.load(GADRequest())
         
         
         

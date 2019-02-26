@@ -9,5 +9,7 @@ target 'TurkiyeninIlleri' do
  pod 'SwiftyJSON'
  pod 'Alamofire'
  pod 'SVProgressHUD'
+ pod 'Google-Mobile-Ads-SDK'
+
 
 end
