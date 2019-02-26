@@ -508,7 +508,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="166.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="adana_meshur2" translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-dS-178">
+                                                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="adana_meshur2" translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-dS-178">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="ZM0-dS-178" secondAttribute="height" multiplier="414:167" id="qKH-bh-JEa"/>
@@ -561,12 +561,12 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6e4-Uj-d0D">
                                                     <rect key="frame" x="11" y="0.0" width="394" height="318"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <string key="text">Bulunduğu Bölge : Akdeniz
+                                                    <mutableString key="text">Bulunduğu Bölge : Akdeniz
 Yüz ölçümü : 13.844 km2
-Meşhur Yemekleri : Kebap, Analı Kızlı Çorbası, Yüksük Çorbası, Karakuş Tatlısı, Hamiş, Mahluta Çorbası, Karsambaç, Şırdan, Aşlama, Bici Bici
+Meşhur Yemekleri : Kebap, Analı Kızlı Çorbası, Yüksük Çorbası, Karakuş Tatlısı, Hamiş, Mahluta Çorbası, Karsambaç, Şırdan, Aşlama, Bici Bici                                        
 Telefon Kodu :   322
 Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu Konağı, Kurtkulağı Kervansarayı, Mestanzade Hamamı, Misis Köprüsü, Kemeraltı Camii, Tepebağ Evleri
-İlçeleri : Aladağ, Ceyhan, Çukurova, Feke, İmamoğlu, Karaisalı, Karataş, Kozan‎, Pozantı‎, Saimbeyli, Sarıçam, Seyhan, Tufanbeyli‎, Yumurtalık‎, Yüreğir</string>
+İlçeleri : Aladağ, Ceyhan, Çukurova, Feke, İmamoğlu, Karaisalı, Karataş, Kozan‎, Pozantı‎, Saimbeyli, Sarıçam, Seyhan, Tufanbeyli‎, Yumurtalık‎, Yüreğir</mutableString>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -605,18 +605,16 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIW-EB-hg6">
-                                <rect key="frame" x="36" y="179" width="343" height="93"/>
+                                <rect key="frame" x="36" y="183" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maps" translatesAutoresizingMaskIntoConstraints="NO" id="XQI-fd-1dF">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="web" translatesAutoresizingMaskIntoConstraints="NO" id="XQI-fd-1dF">
                                         <rect key="frame" x="0.0" y="4" width="95" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LY-21-p9Y">
-                                        <rect key="frame" x="126" y="4" width="209" height="85"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.yazilimsanati.net" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LY-21-p9Y">
+                                        <rect key="frame" x="112" y="2" width="223" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Adres : Halkalı Mahallesi, No:2 ,Küçükçekmece/İstanbul
-</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.1843137255" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -625,27 +623,25 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNK-xT-3N5">
-                                <rect key="frame" x="36" y="329" width="343" height="93"/>
+                                <rect key="frame" x="36" y="333" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="fTL-OO-zcS">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="www" translatesAutoresizingMaskIntoConstraints="NO" id="fTL-OO-zcS">
                                         <rect key="frame" x="0.0" y="6" width="95" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Er-cR-yJn">
-                                        <rect key="frame" x="126" y="16" width="209" height="73"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.medium.com/halilozel1903" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Er-cR-yJn">
+                                        <rect key="frame" x="110" y="10" width="225" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">+905456351298
-</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.15923816120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.18431372549019609" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzG-To-3hF">
-                                <rect key="frame" x="36" y="516" width="343" height="93"/>
+                                <rect key="frame" x="36" y="485" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="J2A-V0-qwR">
@@ -664,39 +660,39 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="İletişim Bilgileri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIV-n8-3pN">
+                                <rect key="frame" x="63" y="101" width="289" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5v-3r-cqK">
-                                <rect key="frame" x="36" y="706" width="343" height="93"/>
+                                <rect key="frame" x="36" y="637" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="web" translatesAutoresizingMaskIntoConstraints="NO" id="vaK-Qg-g5g">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="android" translatesAutoresizingMaskIntoConstraints="NO" id="vaK-Qg-g5g">
                                         <rect key="frame" x="8" y="6" width="95" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.medium.com/halilozel1903" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opp-zE-o8E">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Android Uygulamalar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opp-zE-o8E">
                                         <rect key="frame" x="120" y="8" width="215" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.15923816120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.18431372549019609" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="İletişim Bilgileri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIV-n8-3pN">
-                                <rect key="frame" x="63" y="100" width="289" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4pW-7f-c62"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxJ-4Y-kMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="-88"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="-88.392857142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KfP-j0-9a2">
@@ -738,14 +734,14 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
     <resources>
         <image name="adana" width="225" height="225"/>
         <image name="adana_meshur2" width="752" height="440"/>
+        <image name="android" width="96" height="96"/>
         <image name="background" width="500" height="755"/>
         <image name="cityBackground" width="600" height="399.5"/>
         <image name="left" width="32" height="32"/>
         <image name="mail" width="102.40000152587891" height="102.40000152587891"/>
-        <image name="maps" width="400.69564819335938" height="400.69564819335938"/>
-        <image name="phone" width="102.40000152587891" height="102.40000152587891"/>
         <image name="switch" width="64" height="64"/>
         <image name="turkey_flag" width="750" height="1125"/>
-        <image name="web" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="web" width="96" height="96"/>
+        <image name="www" width="96" height="96"/>
     </resources>
 </document>
