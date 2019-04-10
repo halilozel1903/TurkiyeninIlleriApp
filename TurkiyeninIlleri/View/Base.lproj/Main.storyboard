@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BHw-Ll-uL5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BHw-Ll-uL5">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,7 +27,7 @@
                                 <color key="backgroundColor" red="1" green="0.00048069992679999999" blue="0.35497028870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhh-4e-EsE" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
-                                <rect key="frame" x="143" y="644" width="128" height="42"/>
+                                <rect key="frame" x="125" y="643" width="165" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="TESTLER">
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaR-1h-6CS" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
-                                <rect key="frame" x="143" y="203" width="128" height="42"/>
+                                <rect key="frame" x="129" y="206" width="156" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="HAVA DURUMU">
@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCP-bn-F5j" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
-                                <rect key="frame" x="143" y="113" width="128" height="42"/>
+                                <rect key="frame" x="129" y="114" width="156" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="İLLER">
@@ -78,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dki-0W-69W" customClass="RoundButton" customModule="TurkiyeninIlleri" customModuleProvider="target">
-                                <rect key="frame" x="143" y="732" width="128" height="42"/>
+                                <rect key="frame" x="125" y="731" width="165" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="İLETİŞİM">
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Türkiye'nin İlleri" id="yHE-id-WrX"/>
@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1151" y="-88"/>
+            <point key="canvasLocation" x="-1152.1739130434783" y="-88.392857142857139"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="WyO-Bc-Qyj">
@@ -214,7 +214,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-MI-VLF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hava1" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-MI-VLF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNQ-wQ-TqN" userLabel="Temperature Label">
@@ -244,7 +244,7 @@
                                     <segue destination="tbS-Ja-Y6n" kind="presentation" identifier="changeCityName" id="6Ev-XX-u4L"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcE-I2-cMs" userLabel="City Label">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yükleniyor..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcE-I2-cMs" userLabel="City Label">
                                 <rect key="frame" x="12" y="745" width="269" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="GMR-Oh-b8y"/>
@@ -284,7 +284,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNb-Ce-vAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2406" y="1419"/>
+            <point key="canvasLocation" x="-2459" y="1419"/>
         </scene>
         <!--Change City View Controller-->
         <scene sceneID="yoU-Ih-WoK">
@@ -294,7 +294,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cityBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jvR-n9-Wfx" userLabel="Background Image View">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hava2" translatesAutoresizingMaskIntoConstraints="NO" id="jvR-n9-Wfx" userLabel="Background Image View">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfD-q0-TRm" userLabel="Back Button">
@@ -310,18 +310,18 @@
                                     <action selector="backButtonPressed:" destination="tbS-Ja-Y6n" eventType="touchUpInside" id="ojH-U1-pjv"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter City Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9KM-Lj-r1p" userLabel="City Name Text Field">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şehir Adını Giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9KM-Lj-r1p" userLabel="City Name Text Field">
                                 <rect key="frame" x="93" y="158" width="228" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5n-V4-euM" userLabel="Get Weather Button">
-                                <rect key="frame" x="115" y="228" width="184" height="30"/>
+                                <rect key="frame" x="115" y="228" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NlL-Yc-pbD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Get Weather">
+                                <state key="normal" title="Hava Durumu">
                                     <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -353,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItD-n9-n4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1110" y="1419"/>
+            <point key="canvasLocation" x="-1162" y="1419"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="XQI-RP-gT5">
@@ -489,7 +489,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fdn-Za-tew" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81.159420289855078" y="1418.9732142857142"/>
+            <point key="canvasLocation" x="-255" y="1419"/>
         </scene>
         <!--City View Controller-->
         <scene sceneID="pvj-Do-wPr">
@@ -749,12 +749,12 @@ Gezilecek Yerler : Ulu Camii,Büyük Saat, Taşköprü, Yağ Camii, Ramazanoğlu
     <resources>
         <image name="adana" width="225" height="225"/>
         <image name="adana_meshur2" width="752" height="440"/>
-        <image name="analytics" width="400.69564819335938" height="400.69564819335938"/>
-        <image name="android-1" width="329.14285278320312" height="329.14285278320312"/>
-        <image name="background" width="500" height="755"/>
-        <image name="blogger" width="400.69564819335938" height="400.69564819335938"/>
-        <image name="cityBackground" width="600" height="399.5"/>
-        <image name="gmail" width="400.69564819335938" height="400.69564819335938"/>
+        <image name="analytics" width="128" height="128"/>
+        <image name="android-1" width="128" height="128"/>
+        <image name="blogger" width="128" height="128"/>
+        <image name="gmail" width="128" height="128"/>
+        <image name="hava1" width="640" height="1136"/>
+        <image name="hava2" width="720" height="1280"/>
         <image name="left" width="32" height="32"/>
         <image name="switch" width="64" height="64"/>
         <image name="turkey_flag" width="750" height="1125"/>
